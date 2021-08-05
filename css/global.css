@@ -1,0 +1,73 @@
+h1{
+    color:#F0DADA;
+}
+
+*{
+    margin:0%;
+    padding:0%;
+}
+
+html, body {
+    width:100%;
+    height:100%;
+    background-color: #F0DADA;
+}
+
+/* PAGE STRUCTURE */
+
+body{
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: url(../Images/windy-dandelion.jpg);
+    background-size:cover;
+}
+
+/* NAVIGATION STYLES */
+
+nav{
+    background-color:#FEDDCA;
+}
+
+nav ul{
+    text-align:right;
+}
+
+nav ul li{
+    display:inline-block;
+    text-align:right;
+}
+
+nav ul li a{
+    display:block;
+    color:cornflowerblue;
+    padding: 1em;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    background-color:rgb(230, 190, 152);
+}
+
+nav ul li:last-child a {
+    background-color: #ffd3bc;
+}
+
+main{
+    width:100%;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#FEDDCA;
+    /* margins will keep it centered */
+}
+
+.panels{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:150px;
+}
+
+footer{
+    background-color:#FEDDCA;
+}
