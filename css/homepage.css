@@ -17,13 +17,16 @@ body{
     display:grid;
     background-size:cover;
     grid-template-rows:auto 1fr auto;
+    margin-bottom:2%;
+    padding-bottom:8%;
 }
 
 .banner {
     text-align:center;
     padding:10px;
     grid-column:span 2;
-    margin-top:1%;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 .centered {
@@ -73,6 +76,8 @@ h3{
     margin-right:1%;
     margin-left:1%;
     font-family:'Bebas Neue';
+    font-weight: lighter;
+    border-radius:1%;
 }
 
 .game-desc{
@@ -81,6 +86,12 @@ h3{
     margin-right:1%;
     margin-left:1%;
     font-family:'Bebas Neue';
+}
+
+.additional-info{
+    font-size:0.8em;
+    margin-top:5%;
+    padding:1%;
 }
 
 /* .additional-links{
@@ -109,7 +120,7 @@ h3{
 
 .air2{
     color:white;
-    font-size:1.2em;
+    /* font-size:1.2em; */
 }
 
 /* NAVIGATION STYLES */
@@ -156,6 +167,10 @@ nav ul li a:hover{
     margin-right:1%;
 }
 
+.footer{
+    margin-top:5%;
+}
+
 /* .other-redirect{
     display:flex;
     justify-content:flex-end;
@@ -166,6 +181,7 @@ nav ul li a:hover{
 
     .game-desc, h3{
         margin-left:10%;
+        padding:1%;
     }
 
 }
@@ -195,6 +211,7 @@ nav ul li a:hover{
 
     .game-desc{
         margin-top:5%;
+        padding:1%;
     }
 }
 
