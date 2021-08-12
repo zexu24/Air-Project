@@ -58,7 +58,7 @@ nav ul li a:hover{
     height:100%;
 }
 
-.quote-left, .quote-left-1, .quote{
+.quote-left, .quote-left-1, .quote, .quote-2{
     float:left;
     width:350px;
 }
@@ -79,11 +79,11 @@ nav ul li a:hover{
     clear:both;
 }
 
-.pfp-right, .quote-right{
+.pfp-right, .quote-right, .quote-right-1{
     height:100%;
 }
 
-.quote-right{
+.quote-right, .quote-right-1{
     float:right;
     width:350px;
 }
@@ -100,12 +100,12 @@ nav ul li a:hover{
     margin:20px;
 }
 
-.quote-right, .quote-left, .quote, .quote-left-1{
+.quote-right, .quote-left, .quote, .quote-2, .quote-left-1m .quote-right-1{
     padding:10px;
     text-align:center;
 }
 
-.news-item-left, .news-item-right, .pfp-left, .pfp-right, .quote-left, .quote-left-1, .quote-right, .trending-news, .recent-news, .pfp, .quote{
+.news-item-left, .news-item-right, .pfp-left, .pfp-right, .quote-left, .quote-left-1, .quote-right, .quote-right-1, .trending-news, .recent-news, .pfp, .quote, .quote-2{
     box-sizing: border-box;
 }
 
@@ -138,12 +138,12 @@ main{
     height:725px;
 }
 
-.quote{
+.quote, .quote-2{
     height:175px;
     display:inline-block;
 }
 
-.pfp, .quote{
+.pfp, .quote, .quote-2{
     margin-top:25px;
 }
 
@@ -151,24 +151,28 @@ main{
     margin-left:20px;
 } */
 
-.quote, .quote-left, .quote-left-1{
+.quote, .quote-2, .quote-left, .quote-left-1{
     background-image: url(../Images/textbubbleRIGHTtransparent.png);
     max-width:331px;
     max-height:158px;
+    padding-left: 25px;
+    padding-top: 45px;
+    font-size: 25px;
 }
 
-.quote-right{
-    background-image:url(../Images/textbubbleRIGHTtransparent.png);
-    transform: scaleX(-1);
+.quote-right, .quote-right-1{
+    background-image:url(../Images/textbubbleLEFTtransparent.png);
+    /*transform: scaleX(-1);*/
     max-width:331px;
     max-height:158px;
+    padding-right: 25px;
 }
 
 .three{
     margin-left:15px;
 }
 
-.quote-right, .quote-left, .quote{
+.quote-right, .quote-left, .quote-left-1, .quote, .quote-2, .quote-right-1{
     text-align:center;
     font-family: 'Bebas Neue', cursive;
     font-weight:lighter;
@@ -179,4 +183,45 @@ main{
 .quote-left-1{
     position:relative;
     bottom:5px;
+    padding-top: 40px;   
+    padding-left: 25px; 
+}
+
+.quote-right{
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+.quote-right-1{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size:20px
+}
+
+.quote {
+    padding-top: 35px;
+    font-size: 18px;
+    
+}
+
+.quote-2{
+    padding-top:25px;
+    font-size: 18px;
+}
+
+.quote a, .quote-2 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.headline-1{
+    font-size:30px;
+}
+
+.headline-2{
+    font-size: 25px;
+}
+
+.headline-3{
+    font-size: 30px;
 }
