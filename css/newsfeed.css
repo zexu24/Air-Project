@@ -28,8 +28,9 @@ nav ul{
 nav ul li{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    display:inline-block;
-    width:10%;
+    display: inline-block;
+    
+    /*width:10%;*/
 }
 
 nav ul li a{
@@ -41,12 +42,6 @@ nav ul li a{
 
 nav ul li a:hover{
     background-color:#f7eaea;
-}
-
-.other-redirect{
-    display:flex;
-    justify-content:flex-end;
-    width:100%;
 }
 
 .news-item-left, .pfp{
