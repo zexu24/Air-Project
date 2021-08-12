@@ -67,12 +67,12 @@ h2{
 }
 
 .ap a{
-    color: rgb(43, 43, 43);
+    color: rgb(36, 109, 185);
     text-decoration: none;
 }
 
 .ap a:hover{
-    background-color: rgb(201, 198, 198);
+    background-color: rgb(201, 213, 228);
 }
 /* NAVIGATION STYLES */
 
