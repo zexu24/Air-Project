@@ -209,6 +209,10 @@ main{
     color: blue;
 }
 
+.quote a:hover, .quote-2 a:hover{
+    background-color: rgb(190, 190, 240);
+}
+
 .headline-1{
     font-size:30px;
 }
